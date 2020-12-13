@@ -4706,3 +4706,11 @@ p {
 #skills {
 	font-size: 14px;
 }
+
+.fields {
+	padding-top: 40px;
+}
+
+[rowspan] {
+	vertical-align: middle;
+}

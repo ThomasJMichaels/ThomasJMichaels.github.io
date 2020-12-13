@@ -23,11 +23,30 @@
         </nav>
         <div id="main">
             <section class="post">
-              <header class="major">
-                <h1>Welcome to my site!</h1>
-                <p>Insert brief bio</p>
-              </header>
-              <div class="image main"><img src="pictures/PianoHall.JPG" alt="Playing piano in hall" /></div>
+              <h1>Contact Me</h1>
+              <form method="post" action="#">
+                <div class="fields">
+                  <div class="field">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" />
+                  </div>
+                  <div class="field">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" />
+                  </div>
+                  <div class="field">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" />
+                  </div>
+                  <div class="field">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="3"></textarea>
+                  </div>
+                </div>
+                <ul class="actions">
+                  <li><input type="submit" value="Send Message" /></li>
+                </ul>
+              </form>
             </section>
 
         </div>
