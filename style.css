@@ -4725,12 +4725,20 @@ p {
 	margin-bottom: 30px;
 	text-align: center;
 }
+
 .mediaR {
 	float: right;
 	max-width: 400px;
 	margin-bottom: 30px;
 	text-align: center;
 }
+
+.media {
+	max-width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .dllink{
 	padding-top: 8px;
 }
@@ -4739,11 +4747,16 @@ p {
 	text-align: center;
 }
 
+video {
+	margin: auto;
+}
+
 @media screen and (max-width: 980px) {
 	.mediaL {
 		position: relative;
 		display: block;
-		margin: auto;
+		margin-left: auto;
+		margin-right: auto;
 		width: 100%;
 		align-content: center;
 		float: none;
@@ -4752,7 +4765,8 @@ p {
 	.mediaR {
 		position: relative;
 		display: block;
-		margin: auto;
+		margin-left: auto;
+		margin-right: auto;
 		width: 100%;
 		align-content: center;
 		float: none;
